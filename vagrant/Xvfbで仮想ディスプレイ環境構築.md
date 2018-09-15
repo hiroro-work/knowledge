@@ -31,3 +31,8 @@ gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 $ sudo yum install -y google-chrome-stable
 ```
+
+4. Xvfb起動
+```
+$ Xvfb :1 -screen 0 1024x768x24 > /dev/null &
+```

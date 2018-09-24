@@ -6,6 +6,12 @@
 
 ### scaffold
 
+### カラム追加
+
+```
+$ rails g migration AddColumnTo{Model名} {カラム} 
+```
+
 ## locales
 
 ### locales配下のサブディレクトリ配置したymlファイルを読み込む

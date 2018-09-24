@@ -7,15 +7,20 @@
 ### scaffold
 
 ### カラム追加
-
 ```
 $ rails g migration AddColumnTo{Model名} {カラム} 
+```
+
+## rails db
+
+### testDBのmigrate
+```
+$ rails db:migrate RAILS_ENV=test
 ```
 
 ## locales
 
 ### locales配下のサブディレクトリ配置したymlファイルを読み込む
-
 ```
 application.rbに★の行を追加
 

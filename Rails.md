@@ -11,6 +11,11 @@
 $ rails g migration AddColumnTo{Model名} {カラム} 
 ```
 
+### モデル削除
+```
+$ rails g migration Drop{Model名}
+```
+
 ## rails db
 
 ### testDBのmigrate

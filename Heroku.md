@@ -2,4 +2,4 @@
 
 ## master以外のブランチをHerokuにデプロイ
 $ heroku login  
-$ git push {branch name}:master
+$ git push heroku {branch name}:master

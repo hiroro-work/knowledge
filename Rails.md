@@ -1,5 +1,12 @@
 # Rails Knowledge
 
+## rails new
+
+### Postgresqlを指定してアプリ作成
+```
+$ rails new app_name -d postgresql
+```
+
 ## rails generate
 
 ### model

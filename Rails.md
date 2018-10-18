@@ -5,6 +5,9 @@
 ### Postgresqlを指定してアプリ作成
 ```
 $ rails new appname -d postgresql
+$ rails db:create
+
+※ rails db:createを行わず手動でDB作成する場合は以下
 $ sudo -u postgres psql
 $ postgres=# CREATE DATABASE appname_development;
 $ postgres=# CREATE DATABASE appname_test;

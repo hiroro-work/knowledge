@@ -4,7 +4,11 @@
 
 ### Postgresqlを指定してアプリ作成
 ```
-$ rails new app_name -d postgresql
+$ rails new appname -d postgresql
+$ sudo -u postgres psql
+$ postgres=# CREATE DATABASE appname_development;
+$ postgres=# CREATE DATABASE appname_test;
+$ postgres=# \q
 ```
 
 ## rails generate

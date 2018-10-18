@@ -34,6 +34,11 @@ $ rails g migration Drop{Model名}
 $ rails db:migrate RAILS_ENV=test
 ```
 
+### DB初期化
+```
+$ rails db:migrate:reset
+```
+
 ## locales
 
 ### locales配下のサブディレクトリ配置したymlファイルを読み込む

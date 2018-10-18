@@ -48,3 +48,11 @@ module XXXXX
   end
 end
 ```
+
+## gem
+
+### bundle install前のnokogiri事前設定
+```
+$ sudo yum install libxml2-devel libxslt-devel
+$ bundle config --local build.nokogiri --use-system-libraries
+```

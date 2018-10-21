@@ -17,6 +17,23 @@ $ postgres=# \q
 ## rails generate
 
 ### model
+```
+$ rails g model {Model名} {カラム:データ型} ...
+
+[データ型]
+string 文字列型
+text テキスト（不定長文字列）型
+integer 整数型
+float 浮動小数点数型
+decimal 固定長整数型
+datetime 日時型
+timestamp タイムスタンプ型
+time 時刻型
+date 日付型
+binary バイナリ文字列型
+boolean 真偽値型
+references 他テーブルへの外部キー
+```
 
 ### scaffold
 

@@ -59,6 +59,12 @@ $ rails db:migrate RAILS_ENV=test
 $ rails db:migrate:reset
 ```
 
+### 特定VERSIONのみmigrate
+```
+$ rails db:migrate:status
+$ rails db:migrate:up VERSION={Migration ID}
+```
+
 ## locales
 
 ### locales配下のサブディレクトリ配置したymlファイルを読み込む

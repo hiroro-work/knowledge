@@ -39,7 +39,7 @@ references 他テーブルへの外部キー
 
 ### カラム追加
 ```
-$ rails g migration AddColumnTo{Model名} {カラム} 
+$ rails g migration AddColumnTo{Model名} {カラム}:{データ型} 
 ```
 
 ### モデル削除

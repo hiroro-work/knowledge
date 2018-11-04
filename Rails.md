@@ -65,6 +65,13 @@ $ rails db:migrate:status
 $ rails db:migrate:up VERSION={Migration ID}
 ```
 
+## rails spec
+
+### RSpec実行
+```
+$ rails spec
+```
+
 ## locales
 
 ### locales配下のサブディレクトリ配置したymlファイルを読み込む

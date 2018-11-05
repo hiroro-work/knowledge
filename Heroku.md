@@ -1,5 +1,14 @@
 # Heroku
 
+## Railsアプリをデプロイ
+```
+$ cd appdir
+$ heroku login
+$ heroku create appname
+$ heroku run rails db:migrate
+$ heroku run rails db:seed
+```
+
 ## master以外のブランチをHerokuにデプロイ
 ```
 $ heroku login  

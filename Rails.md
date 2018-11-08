@@ -94,3 +94,9 @@ end
 $ sudo yum install libxml2-devel libxslt-devel
 $ bundle config --local build.nokogiri --use-system-libraries
 ```
+vagrantで共有フォルダを使ってる場合はそれでもダメっぽいので、  
+その時は以下のように共有フォルダ外にインストールされるようにする。
+```
+$ mkdir -p /usr/local/src/bundles/プロジェクト名
+$ bundle install --path /usr/local/src/bundles/プロジェクト名
+```

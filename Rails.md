@@ -97,6 +97,11 @@ $ bundle config --local build.nokogiri --use-system-libraries
 vagrantで共有フォルダを使ってる場合はそれでもダメっぽいので、  
 その時は以下のように共有フォルダ外にインストールされるようにする。
 ```
-$ mkdir -p /usr/local/src/bundles/プロジェクト名
-$ bundle install --path /usr/local/src/bundles/プロジェクト名
+$ mkdir -p ~/rails/vendor/bundles/プロジェクト名
+$ bundle install --path ~/rails/vendor/bundles/プロジェクト名
+```
+
+### path指定せずにインストールしたgemを一括削除
+```
+$ gem uni -aIx $(gem li --no-versions | grep -v -E "rdoc|psych|io-console|bigdecimal|rake|json|zlib|webrick|strscan|stringio|sdbm|scanf|openssl|ipaddr|fileutils|fiddle|fcntl|etc|date|csv|cmath")
 ```

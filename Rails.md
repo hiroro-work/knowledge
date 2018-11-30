@@ -37,12 +37,14 @@ references 他テーブルへの外部キー
 
 ### scaffold
 
-### カラム追加
+### migration
+
+#### カラム追加
 ```
 $ rails g migration AddColumnTo{Model名} {カラム}:{データ型} 
 ```
 
-### モデル削除
+#### モデル削除
 ```
 $ rails g migration Drop{Model名}
 ```

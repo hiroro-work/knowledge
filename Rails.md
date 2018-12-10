@@ -89,6 +89,21 @@ module XXXXX
 end
 ```
 
+## webpack
+
+### stimulus
+```
+$ rails webpacker:install
+$ rails webpacker:install:stimulus
+$ vi app/views/layouts/application.html.haml
+!!!
+%html
+  %head
+    ～
+    = javascript_pack_tag 'application'
+    ～
+```
+
 ## gem
 
 ### bundle install前のnokogiri事前設定

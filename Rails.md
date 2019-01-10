@@ -74,6 +74,11 @@ $ rails db:migrate:up VERSION={Migration ID}
 $ rails spec
 ```
 
+### ファイルを指定してRSpec事項
+```
+$ bundle exec rspec spec/xxxx_spec.rb
+```
+
 ## locales
 
 ### locales配下のサブディレクトリ配置したymlファイルを読み込む

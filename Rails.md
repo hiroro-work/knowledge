@@ -74,7 +74,7 @@ $ rails db:migrate:up VERSION={Migration ID}
 $ rails spec
 ```
 
-### ファイルを指定してRSpec事項
+### ファイルを指定してRSpec実行
 ```
 $ bundle exec rspec spec/xxxx_spec.rb
 ```

@@ -79,6 +79,11 @@ $ rails spec
 $ bundle exec rspec spec/xxxx_spec.rb
 ```
 
+### 特定のテストケースのみ実行
+```
+$ bundle exec rspec spec/xxxx_spec.rb:{行番号}
+```
+
 ## locales
 
 ### locales配下のサブディレクトリ配置したymlファイルを読み込む

@@ -132,3 +132,11 @@ $ bundle install --path ~/rails/vendor/bundles/プロジェクト名
 ```
 $ gem uni -aIx $(gem li --no-versions | grep -v -E "rdoc|psych|io-console|bigdecimal|rake|json|zlib|webrick|strscan|stringio|sdbm|scanf|openssl|ipaddr|fileutils|fiddle|fcntl|etc|date|csv|cmath")
 ```
+
+## アプリ起動
+
+### unicornで起動
+```
+unicorn.rb作って以下を実行
+$  bin/bundle exec unicorn_rails -c config/unicorn.rb
+```

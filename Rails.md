@@ -140,3 +140,19 @@ $ gem uni -aIx $(gem li --no-versions | grep -v -E "rdoc|psych|io-console|bigdec
 unicorn.rb作って以下を実行
 $  bin/bundle exec unicorn_rails -c config/unicorn.rb
 ```
+
+## ruby
+
+### rubyアップデート
+```
+$ cd ~/.rbenv/plugins/ruby-build 
+$ git pull origin master
+$ rbenv install --list
+～
+{version}
+～
+$ rbenv install {version}
+$ cd {appdir}
+$ rbenv local {version}
+$ gem install bundler
+```
